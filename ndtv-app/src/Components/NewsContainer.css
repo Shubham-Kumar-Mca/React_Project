@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     width: 95%;
-    border: 1px solid red;
     margin: 20px auto;
 }
 .NewsContainer .left{
@@ -48,14 +47,15 @@
 
 .center{
     width: 43%;
-    border: 1px solid red;
 }
 .center .fNews{
     text-align: center;
     background-color: #fff;
+    cursor: pointer;
 }
 .center .fNews img{
     width: 100%;
+    height: 100%;
     border-radius: 5px 5px 0 0;
 }
 .center .fNews .heding1{
@@ -110,13 +110,16 @@
 .dataMaping{
     background-color: #fff;
     padding: 10px;
-
+    width: 135%;
+    border-radius: 5px;
 }
 .smallNews2{
     display: flex;
+    align-items: center;
     padding: 5px 0;
     font-size: 15px;
     border-bottom: 1px solid rgb(216, 215, 215);
+    cursor: pointer;
 }
 .smallNews2 img{
     border-radius: 5px;
@@ -128,8 +131,76 @@
     font-weight: 700;
 }
 
+.fouNews{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.fouNews div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.newTitls{
+    color: #fff;
+    text-align: center;
+    margin-top: -120px;
+    cursor: pointer;
+}
+
+.smallNews4{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(216, 215, 215);
+    cursor: pointer;
+}
+.smallNews4 img{
+    width: 25%;
+    border-radius: 5px;
+}
+
+.fNews1 img{
+    width: 100%;
+    height: 230px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.desc1{
+    color: #fff;
+    margin-top: -68px;
+    padding: 0 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
 
 .right{
     width: 27%;
-    border: 1px solid teal;
+}
+.BhagatSingImage img{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.fivNews .smallNews5{
+    margin-top: 20px;
+    text-align: center;
+    border-radius:5px;
+    background-color: #fff;
+
+}
+.fivNews .smallNews5 img{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+}
+.hedlineTitle{
+    padding: 6px;
+    cursor: pointer;
 }

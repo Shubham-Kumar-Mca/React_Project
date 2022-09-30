@@ -1,0 +1,23 @@
+.TrendingContainer{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+.Trending_Div{
+    display: flex;
+    gap: 10px;
+}
+.Trending_Div img{
+    width: 100%;
+    height: 70%;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+.newsHeading{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.newsHeading p{
+    padding: 13px;
+}
