@@ -1,0 +1,135 @@
+.NewsContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    border: 1px solid red;
+    margin: 20px auto;
+}
+.NewsContainer .left{
+    height: 100vh;
+    width: 27%;
+    height: auto;
+}
+.bigStory{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.bigStory img{
+    width: 100%;
+}
+.bigStory .title{
+    padding: 10px;
+}
+.bigStory .description{
+    padding: 12px;
+    color: rgb(45, 45, 45);
+    font-weight: bold;
+    font-size: 15px;
+}
+.toStories{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.toStories .stories{
+    padding: 10px 10px 0  10px;
+}
+.smallNews{
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    align-items: center;
+    padding: 10px 12px;
+}
+.smallNews img{
+    border-radius: 5px;
+}
+
+
+.center{
+    width: 43%;
+    border: 1px solid red;
+}
+.center .fNews{
+    text-align: center;
+    background-color: #fff;
+}
+.center .fNews img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.center .fNews .heding1{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.sNews{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+.sNews .news1{
+    width: 60%;
+    background-color: #fff;
+}
+.sNews .news1 img{
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+}
+.sNews .news1 .title1{
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(57, 57, 57);
+}
+.sNews .advertisment{
+    background-color: #fff;
+}
+.sNews .advertisment img{
+    width: 100%;
+    height: 70%;
+}
+.sNews .advertisment .title2{
+    padding: 10px;
+}
+.sNews .advertisment .title2:hover{
+    text-decoration: underline;
+}
+.title3{
+    font-size: 12px;
+    padding: 0 11px;
+    margin-top: -5px;
+    color: gray;
+    cursor: pointer;
+}
+.tNews{
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+}
+.dataMaping{
+    background-color: #fff;
+    padding: 10px;
+
+}
+.smallNews2{
+    display: flex;
+    padding: 5px 0;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(216, 215, 215);
+}
+.smallNews2 img{
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.desc{
+    color: #fff;
+    margin-top: -90px;
+    font-weight: 700;
+}
+
+
+.right{
+    width: 27%;
+    border: 1px solid teal;
+}
