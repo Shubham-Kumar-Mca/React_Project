@@ -1,4 +1,5 @@
 import './App.css';
+import AfterTrendingPart from './Components/Container/AfterTrendingPart';
 import ICYMI from './Components/Container/ICYMI';
 import Opinion from './Components/Container/Opinion';
 import Trending from './Components/Container/Trending';
@@ -13,6 +14,7 @@ function App() {
       <Opinion />
       <ICYMI />
       <Trending />
+      <AfterTrendingPart />
     </div>
   );
 }
