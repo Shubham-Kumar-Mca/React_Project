@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.App{
+    width: 100%;
+    background-color: blueviolet;
+}
+.Navbar {
+    height: 70px;
+    width: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: auto;
+}
+.Student_Details{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: blue;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    font-family: sans-serif;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.crud{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #fff;
+}
+.crd{
+    text-decoration: none;
+    color: #fff;
+}
+.crd:hover{
+    border-bottom: 3px solid black;
+    padding-bottom: 16px;
+}
+.homePage, .addStudent{
+    text-align: center;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+table td, table th{
+    font-family: sans-serif;
+    border: 1px solid #d1d5db;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    background-color: #fff;
+}
+
+table th{
+    background-color: black;
+    color: white;
+    padding-bottom: 12px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+.button button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.view{
+    background-color: aqua;
+    padding: 7px 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+.edit{
+    background-color: blue;
+    padding:7px  10px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.delete{
+    background-color: #db3545;
+    color: #fff;
+}
+.viewDetails{
+    border: 1px solid black;
+    width: 48%;
+    margin: auto;
+    margin-top: 80px;
+    text-align: left;
+    padding: 20px;
+}
+.viewDetails .viewData{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.viewDetails .viewData .seconDiv{
+    width: 55%;
+}
+
+form{
+    width: 55%;
+    margin: auto;
+    margin-top: 20px;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 13px;
+    font-size: 18px;
+}
+input[type="submit"]{
+    border: none;
+    background-color: blue;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+}
+.pageButton{
+    width: 20%;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+.pageButton button{
+    padding: 10px 15px;
+    border: none;
+}
+.next{
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+.prev{
+    background-color: aquamarine;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+}
+.page{
+    background-color: aqua;
+}
+.loading{
+    text-align: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,46 @@
+{
+  "Student_Details": [
+    {
+      "name": "Shubham Kumar Jaiswal",
+      "email": "krshubhamjaiswal2000@gmail.com",
+      "phone": "6203452775",
+      "userid": "Shubham@095",
+      "id": "L3DKgNRRcRwCgTuXeEp3g"
+    },
+    {
+      "name": "Rohit Kumar Sinha",
+      "email": "rohit@gmail.com",
+      "phone": "8956423170",
+      "userid": "Rohit@407",
+      "id": "VTBBDZ4NS98XtDh-TJob9"
+    },
+    {
+      "name": "Aditya Prakash Kashyap",
+      "email": "aditya@gmail.com",
+      "phone": "9875642130",
+      "userid": "Aditya250#",
+      "id": "jETSe-uDn-jS8NafwJw3S"
+    },
+    {
+      "name": "Rani Prakash Jha",
+      "email": "raniprakashjha@gmail.com",
+      "phone": "785241360",
+      "userid": "Rani@038",
+      "id": "xtbu2Ar-bHOsXOYdaqxcv"
+    },
+    {
+      "name": "Abhishek Kumar",
+      "email": "abhishek@gmail.com",
+      "phone": "854236170",
+      "userid": "Abhi@85",
+      "id": "xRq4NiELZ4NpOJbQgKGas"
+    },
+    {
+      "name": "T-shart",
+      "email": "eve.holt@reqres.in",
+      "phone": "9875641230",
+      "userid": "Tshart@124",
+      "id": "vPP-VJxGPt-MveNHyj1he"
+    }
+  ]
+}
