@@ -1,0 +1,68 @@
+
+.loginPage{
+  border: 1px solid red;
+  width: 30%;
+  margin: 5rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+}
+input{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 3px;
+  margin-bottom: 13px;
+}
+input[type="submit"]{
+  cursor: pointer;
+}
+label{
+  font-size: 18px;
+}
+.dashboardPage{
+  text-align: center;
+}
+button{
+  cursor: pointer;
+  margin-left: 2px;
+  margin-top: 1rem;
+}
+a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.link{
+  border: 1px solid red;
+  padding: 5px 15px;
+  background-color: #db3545;
+  color: aliceblue;
+  border-radius: 5px;
+}
+.singResPage{
+  border: 1px solid red;
+  width: 20%;
+  margin: 5rem auto;
+  text-align: center;
+  font-size:  20px;
+  padding: 0 20px 10px 20px;
+}
+.singResPage h3{
+  font-size: 30px;
+}
+.container{
+  margin-top: -20px;
+}
+.singResPage div img{
+  width: 100%;
+  height: 100px;
+}
+.HomePage{
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.HomePage a{
+  color: rgb(12, 12, 80);
+  cursor: pointer;
+}
