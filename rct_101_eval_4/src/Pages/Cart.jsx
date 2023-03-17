@@ -18,7 +18,7 @@ const Cart = () => {
   }
 
   const handelOrder = ()=>{
-    // confirm("Are you sure you want to place this order ?")?cartDispatch(CheckOut()):console.log("okay");
+    confirm("Are you sure you want to place this order ?")?cartDispatch(CheckOut()):console.log("okay");
   }
 
   /* Calculation of Final Total */
