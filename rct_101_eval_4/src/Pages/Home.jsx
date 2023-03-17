@@ -27,7 +27,7 @@ const Home = ({ filter }) => {
 
   const handelApi = () => {
     dispatch(getRequest())
-    axios.get("https://fakestoreapi.com/products").then(res => {
+    axios.get("https://api.escuelajs.co/api/v1/products").then(res => {
       dispatch(getData(res.data))
     }).catch(err => {
       dispatch(getFailure())
@@ -52,7 +52,7 @@ const Home = ({ filter }) => {
           {filter.map(item=>(
             <div key={item.id} className="inside-Container-div">
             <div style={{ height: "350px" }}>
-              <img src={item.image} alt="" width="100%" height="250px" />
+              <img src={item.category.image} alt="" width="100%" height="250px" />
               <h3>{item.title}</h3>
               <h3>Rs. {item.price}</h3>
             </div>
@@ -68,7 +68,7 @@ const Home = ({ filter }) => {
         </> : data.map(item => (
           <div key={item.id} className="inside-Container-div">
             <div style={{ height: "350px" }}>
-              <img src={item.image} alt="" width="100%" height="250px" />
+              <img src={item.category.image} alt="" width="100%" height="250px" />
               <h3>{item.title}</h3>
               <h3>Rs. {item.price}</h3>
             </div>
