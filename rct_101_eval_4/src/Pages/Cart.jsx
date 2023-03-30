@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { CheckOut, RemoveTocart } from "../Context/CartContext/action";
 import { CartAuthContext } from "../Context/CartContext/CartContextProvider";
 
@@ -18,7 +18,7 @@ const Cart = () => {
   }
 
   const handelOrder = ()=>{
-    confirm("Are you sure you want to place this order ?")?cartDispatch(CheckOut()):console.log("okay");
+    window.confirm("Are you sure you want to place this order?") ? cartDispatch(CheckOut()):console.log("okay");
   }
 
   /* Calculation of Final Total */

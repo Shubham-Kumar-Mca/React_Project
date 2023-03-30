@@ -29,8 +29,8 @@ const Login = () => {
 
 
   const handelOnChange = (e) => {
-    const { type, value } = e.target
-    setUser({ ...user, [type]: value })
+    const { name, value } = e.target
+    setUser({ ...user, [name]: value })
   }
 
   const handelLogin = () => {
@@ -62,8 +62,8 @@ const Login = () => {
         backgroundColor: "white"
 
       }}>
-        <input style={{ padding: "10px", marginTop: "10px" }} type="email" value={user.email} onChange={handelOnChange} />
-        <input style={{ padding: "10px", marginTop: "10px" }} type="password" value={user.password} onChange={handelOnChange} />
+        <input style={{ padding: "10px", marginTop: "10px" }} placeholder = "Please Enter Email : eve.holt@reqres.in" type="email" name="email" value={user.email} onChange={handelOnChange} />
+        <input style={{ padding: "10px", marginTop: "10px" }} placeholder = "Please Enter Password : cityslicka" type="password" name="password" value={user.password} onChange={handelOnChange} />
         <button style={{ padding: "10px", marginTop: "10px", cursor: "pointer" }} disabled={authStatus ? true : false} onClick={handelLogin}>Login</button>
       </div>}
 

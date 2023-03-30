@@ -51,7 +51,7 @@ const Home = ({ filter }) => {
         {filter.length > 0 ? <>
           {filter.map(item=>(
             <div key={item.id} className="inside-Container-div">
-            <div style={{ height: "350px" }}>
+            <div style={{ height: "320px" }}>
               <img src={item.category.image} alt="" width="100%" height="250px" />
               <h3>{item.title}</h3>
               <h3>Rs. {item.price}</h3>
@@ -67,7 +67,7 @@ const Home = ({ filter }) => {
           ))}
         </> : data.map(item => (
           <div key={item.id} className="inside-Container-div">
-            <div style={{ height: "350px" }}>
+            <div style={{ height: "320px" }}>
               <img src={item.category.image} alt="" width="100%" height="250px" />
               <h3>{item.title}</h3>
               <h3>Rs. {item.price}</h3>
