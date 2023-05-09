@@ -1,0 +1,52 @@
+{
+  "employees": [
+    {
+      "firstName": "Manish Kumar",
+      "lastName": "Sharma",
+      "email": "manishbkt@gmail.com",
+      "department": "Marketing",
+      "salary": "30000",
+      "id": 3
+    },
+    {
+      "firstName": "Shivam Kumar",
+      "lastName": "Jaiswal",
+      "email": "krshivamjee@gmail.com",
+      "department": "Operations",
+      "salary": "50000",
+      "id": 4
+    },
+    {
+      "firstName": "Rohit Kumar",
+      "lastName": "Sharma",
+      "email": "rohitsharma@gmail.com",
+      "department": "Operations",
+      "salary": "90000",
+      "id": 6
+    },
+    {
+      "firstName": "Rohan ",
+      "lastName": "Sharma",
+      "email": "rohan@gmail.com",
+      "department": "Marketing",
+      "salary": "300",
+      "id": 7
+    },
+    {
+      "firstName": "Pushkaraj ",
+      "lastName": "Laurance",
+      "email": "pushkarajlolusare24@gmail.com",
+      "department": "Operations",
+      "salary": "30002",
+      "id": 9
+    },
+    {
+      "firstName": "Rahul",
+      "lastName": "KUmar",
+      "email": "rahul@gmail.com",
+      "department": "Marketing",
+      "salary": "3000000",
+      "id": 10
+    }
+  ]
+}
